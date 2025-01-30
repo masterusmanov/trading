@@ -3,7 +3,7 @@
         <div class="container mx-auto h-[96px] flex items-center justify-between">
             <div class="flex items-center gap-[24px]">
                 <img src="../assets/logo.svg" alt="">
-                <h1 class="text-white font-[20px] leading-[30px] tracking-[0.27px]">Trading Platform</h1>
+                <router-link to="/"><h1 class="text-white font-[20px] leading-[30px] tracking-[0.27px]">Trading Platform</h1></router-link>
             </div>
             <div class="flex items-center gap-[8px] ">
                 <div v-for="link in navLinks" :key="link.id" >
