@@ -44,7 +44,7 @@
         </tr>
         <tr class="border-b  border-[#2F2E2E] bg-gradient-to-t from-[#2F2E2E] via-[#2F2E2E] to-[#B3B3B3] p-[20px] rounded-lg cursor-pointer">
           <td class="px-4 py-2 text-center">18.</td>
-          <td class="px-4 py-2 flex items-center gap-[12px]"><img src="./assets/images/table/tableuserone.svg" alt="">Sarvar Erkinjonov</td>
+          <td class="px-4 py-2 flex items-center gap-[12px]"><img src="../assets/images/table/tableuserone.svg" alt="">Sarvar Erkinjonov</td>
           <td class="px-4 py-2 ">23</td>
           <td class="px-4 py-2 flex items-center gap-[6px]">+35%<img src="../assets/images/bg/chart.svg" alt=""></td>
           <td class="px-4 py-2">700 <i class='bx bx-question-mark rounded-full border border-[#B3B3B3] mr-[6px] cursor-pointer'></i></td>
@@ -57,7 +57,8 @@
 <script setup>
   import { ref } from 'vue'
   import {users} from '../constants/users'
-  import {modals} from '../constants/modals'
+  import {modals} from '../constants/modals';
+
 
   const isOpen = ref(false);
 
